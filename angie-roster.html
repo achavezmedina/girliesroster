@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Friend Roster</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .friend-container {
+        display: flex;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 20px;
+    }
+    .friend-image {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    .friend-details {
+        flex-grow: 1;
+    }
+    .friend-name {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .friend-rating {
+        color: gold; /* Change the color to represent the rating */
+    }
+</style>
+</head>
+<body>
+<div class="friend-container">
+    <img class="friend-image" src="angie.jpg" alt="Angie">
+    <div class="friend-details">
+        <p><span class="friend-category">Angie</span></p>
+        <h2 class="friend-name">Angie Smith</h2>
+        <div class="friend-rating">★★★★☆</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et risus vel quam posuere tempus.</p>
+    </div>
+</div>
+<!-- Repeat the above structure for other friends -->
+</body>
+</html>
